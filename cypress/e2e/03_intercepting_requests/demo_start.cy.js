@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 it.only('board has no lists', () => {
 
   cy.visit('/board/1')
