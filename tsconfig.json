@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@fixtures/*": [
+        "cypress/fixtures/*"
+      ],
+      "@support/*": [
+        "cypress/support/*"
+      ],
+      "@scripts/*": [
+        "workshop-scripts/*"
+      ]
+    },
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "workshop-scripts/**/*.ts",
+    "cypress.config.ts"
+  ]
+}
